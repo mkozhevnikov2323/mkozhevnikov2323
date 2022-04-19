@@ -1,5 +1,5 @@
 <div id="header" align="left">
-  <h1><img src="https://media.giphy.com/media/26DoiqmYcxgFICb3G/giphy-downsized.gif" width="30"/> Всем привет, меня зовут Максим 🖐</h1>
+  <h1><img src="https://media.giphy.com/media/26DoiqmYcxgFICb3G/giphy-downsized.gif" width="30"/> Всем привет, меня зовут Максим <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" width="30"/></h1>
 </div>
 <div id="main" align="left">
   <p>:boom: <b>Рад приветствовать тебя в моем аккаунте</b></p>
@@ -17,3 +17,10 @@
   <img src="https://i.pinimg.com/originals/9a/33/e7/9a33e7a1b2c93b130b634cdb6568276d.png" width="30"/>
   <img src="https://cs13.pikabu.ru/avatars/1951/x1951167-2098885407.png" width="30"/>
 </div>
+<div id="footer" align="left">
+  <h2>:bar_chart: Моя статистика:</h2>
+</div>
+
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=mkozhevnikov2323&theme=tokyonight_duo&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=mkozhevnikov2323)](https://github.com/ryo-ma/github-profile-trophy)
