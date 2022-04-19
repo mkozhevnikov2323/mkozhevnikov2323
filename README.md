@@ -23,4 +23,8 @@
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=mkozhevnikov2323&theme=tokyonight_duo&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=mkozhevnikov2323)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=mkozhevnikov2323&column=8)](https://github.com/ryo-ma/github-profile-trophy)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mkozhevnikov2323&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=mkozhevnikov2323)](https://github.com/anuraghazra/github-readme-stats)
