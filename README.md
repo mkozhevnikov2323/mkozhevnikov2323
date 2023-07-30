@@ -18,7 +18,7 @@
   <img src="https://cs13.pikabu.ru/avatars/1951/x1951167-2098885407.png" width="30"/>
 </div>
 <div id="footer" align="left">
-  <h2>:bar_chart: Моя статистика </h2>
+  <h2>:bar_chart: Моя статистика</h2>
 </div>
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=mkozhevnikov2323&theme=tokyonight_duo&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
