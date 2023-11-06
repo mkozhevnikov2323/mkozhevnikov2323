@@ -1,9 +1,9 @@
 <div id="header" align="left">
-  <h1><img src="https://media.giphy.com/media/26DoiqmYcxgFICb3G/giphy-downsized.gif" width="30"/> Всем привет, меня зовут Максим <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" width="30"/></h1>
+  <h1><img src="https://media.giphy.com/media/26DoiqmYcxgFICb3G/giphy-downsized.gif" width="30"/> Hi, I'm Maksim <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" width="30"/></h1>
 </div>
 <div id="main" align="left">
-  <p>:boom: <b>Рад приветствовать тебя в моем аккаунте</b></p>
-  <p>:cyclone: Здесь находятся мои проекты по web-разработке, представленные в стеке: :arrow_double_down:</p>
+  <p>:boom: <b>Welcome to my account</b></p>
+  <p>:cyclone: Here are my web development projects presented in the stack: :arrow_double_down:</p>
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/240px-HTML5_logo_and_wordmark.svg.png" width="30"/>
   <img src="http://1.bp.blogspot.com/--1ND6NKx2V0/VHxF2vaxg-I/AAAAAAAAAuM/56teOY-v0cU/s1600/css3.png" width="30"/>
   <img src="https://i1.wp.com/kjpayne.com/wp-content/uploads/2016/03/js-logo-1.png" width="30"/>
@@ -18,7 +18,7 @@
   <img src="https://cs13.pikabu.ru/avatars/1951/x1951167-2098885407.png" width="30"/>
 </div>
 <div id="footer" align="left">
-  <h2>:bar_chart: Моя статистика</h2>
+  <h2>:bar_chart: My statistics </h2>
 </div>
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=mkozhevnikov2323&theme=tokyonight_duo&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
