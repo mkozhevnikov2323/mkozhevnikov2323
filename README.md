@@ -29,4 +29,4 @@
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=mkozhevnikov2323)](https://github.com/anuraghazra/github-readme-stats)
 
-*Last updated: 08-03-2026*
+*Last updated: 8 March 2026 г.
