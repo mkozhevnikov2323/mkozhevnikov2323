@@ -23,7 +23,7 @@ jobs:
         run: |
           # Определяем дату в нужном формате и часовом поясе
           # Пример: "9 марта 2026 г." — поменяй под свой формат
-          CURRENT_DATE=$(TZ="Europe/Moscow" date +"%-d %B %Y г.")
+          CURRENT_DATE=$(TZ="Europe/Moscow" date +"%-d %B %Y")
           
           # Если в README уже есть строка с "Last updated:", заменяем её
           # Если нет — добавляем в конец файла
