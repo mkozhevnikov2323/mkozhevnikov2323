@@ -1,0 +1,50 @@
+name: Daily README Date Update
+
+on:
+  schedule:
+    # Запуск каждый день в 00:00 UTC (можно поменять на своё время)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Ручной запуск для тестов
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Важно для пуша изменений
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Update README with current date
+        run: |
+          # Определяем дату в нужном формате и часовом поясе
+          # Пример: "9 марта 2026 г." — поменяй под свой формат
+          CURRENT_DATE=$(TZ="Europe/Moscow" date +"%-d %B %Y г.")
+          
+          # Если в README уже есть строка с "Last updated:", заменяем её
+          # Если нет — добавляем в конец файла
+          if grep -q "Last updated:" README.md; then
+            sed -i "s/Last updated:.*$/Last updated: $CURRENT_DATE/" README.md
+          else
+            echo "" >> README.md
+            echo "*Last updated: $CURRENT_DATE*" >> README.md
+          fi
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Проверяем, есть ли изменения, чтобы не коммитить пустые апдейты
+          if ! git diff --quiet README.md; then
+            git add README.md
+            git commit -m "chore: update date in README [skip ci]"
+            git push
+            echo "✅ README updated with date: $(date)"
+          else
+            echo "ℹ️ No changes to commit"
+          fi
