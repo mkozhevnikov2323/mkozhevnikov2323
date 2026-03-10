@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
           fetch-depth: 0
 
       - name: Update README with current date
@@ -36,13 +36,13 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "Maksim Olhovsky"
+          git config user.email "mkozhevnikov23@gmail.com"
           
           # Проверяем, есть ли изменения, чтобы не коммитить пустые апдейты
           if ! git diff --quiet README.md; then
             git add README.md
-            git commit -m "update README"
+            git commit -m "chore: update date in README [skip ci]"
             git push
             echo "✅ README updated with date: $(date)"
           else
