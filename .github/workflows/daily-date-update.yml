@@ -42,7 +42,7 @@ jobs:
           # Проверяем, есть ли изменения, чтобы не коммитить пустые апдейты
           if ! git diff --quiet README.md; then
             git add README.md
-            git commit -m "chore: update date in README [skip ci]"
+            git commit -m "update README"
             git push
             echo "✅ README updated with date: $(date)"
           else
